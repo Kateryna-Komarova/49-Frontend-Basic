@@ -1,14 +1,27 @@
 /* ваше решение здесь */
+
 .button {
   border: none;
-  border-radius: 20px;
-  height: 200;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px;
+  font-family: serif;
 }
 
+:hover {
+  color: black;
+}
 .green {
+  color: white;
   background-color: #778d45;
+  font-size: 12px;
 }
 
 .light-green {
   background-color: #aec09a;
+  color: white;
+  font-size: 12px;
+}
+:hover {
+  color: black;
 }
