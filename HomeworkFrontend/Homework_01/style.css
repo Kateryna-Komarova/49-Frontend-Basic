@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+ul {
+    font-weight: bold;
+    color: deeppink;
+
+}
+
+.css-style-one {
+    text-decoration: none;
+    text-decoration: wavy;
+    
+}
+
+.css-style-two {
+    font-style: italic;
+    color: rgb(205, 35, 174);
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.centered-list {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0;            /* Убираем отступы */
+    text-align: center;     /* Центрируем текст */
+  }
+
+  .image-size {
+    width: 250px; /* Устанавливаем ширину */
+    height: auto; /* Высота будет автоматически подстраиваться под ширину */
+  }

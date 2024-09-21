@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  /* Это правило помогает избежать неожиданного увеличения размеров элементов, когда добавляешь отступы или границы. */
+}
+body {
+  margin: 0;
+  /* в CSS убирает внешние отступы (margin) у тега <body>, который является основным контейнером для содержимого веб-страницы. */
+}
+header {
+  height: 100px;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: orange;
+  /* height: 100px; — Устанавливает фиксированную высоту для заголовка в 100 пикселей.
+width: 100%; — Устанавливает ширину на 100% от ширины родительского контейнера. То есть, заголовок займет всю доступную ширину окна браузера.
+padding: 10px 30px; — Добавляет внутренние отступы внутри элемента:
+10px — отступ сверху и снизу.
+30px — отступ слева и справа. Это означает, что контент внутри заголовка будет находиться на расстоянии 10 пикселей от верхней/нижней границы и 30 пикселей от боковых границ. */
+}
+
+main {
+  margin: 0px 30px;
+  /* margin: 0px 30px; — устанавливает внешние отступы (margin) для элемента:
+0px — отступ сверху и снизу.
+30px — отступ слева и справа. */
+}
+
+h1 {
+  margin-bottom: 25px;
+  /* Этот CSS-код задает нижний внешний отступ для элемента <h1> (заголовка первого уровня) */
+}
+
+.theme-title {
+  margin-top: 0px;
+  /* margin-top: 0px; — убирает верхний внешний отступ, то есть делает его равным нулю. */
+}
+
+.big-box {
+  margin-top: 30px;
+  padding-top: 60px;
+  background-color: grey;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;  
+  /* Закругляет углы элемента */
+}
+.small-circle {
+  /* margin: auto; — Центрирует элемент по горизонтали.  */
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.red-box {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(232, 143, 143);
+  border: 1px solid black;
+}
+
+.green-box {
+  border: 20px dotted violet;
+  margin: 10px auto 5px;
+  background-color: aquamarine;
+  padding-left: 25px;
+}
+
+.green-box > p {
+  font-size: larger;
+  /* font-size: larger; — Это свойство увеличивает размер шрифта абзацев на один шаг по сравнению с текущим размером шрифта. Значение larger делает текст больше, чем его родительский элемент. */
+}
+
+.yellow-box {
+  border: 10px dashed red;
+  padding: 50px;
+  background-color: #f4ea2b;
+}
+
+footer {
+  padding: 10px 30px;
+  height: 80px;
+  background-color: grey;
+  width: 100%;
+}

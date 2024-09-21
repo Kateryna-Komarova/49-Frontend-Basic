@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  border: 3px solid red;
+  background-color: beige;
+  padding: 1px;
+  width: 36%;
+  margin: 20px 450px;
+}
+
+span {
+  border: 2px solid blue;
+  display: inline-block;
+}
+h1{
+  margin: 20px 450px;
+}
+
+
+
+
+
+
+
+
+
+

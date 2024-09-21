@@ -1,0 +1,14 @@
+/* ваше решение здесь */
+.button {
+  border: none;
+  border-radius: 20px;
+  height: 200;
+}
+
+.green {
+  background-color: #778d45;
+}
+
+.light-green {
+  background-color: #aec09a;
+}

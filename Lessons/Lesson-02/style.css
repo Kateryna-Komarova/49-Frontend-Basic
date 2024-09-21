@@ -1,0 +1,42 @@
+* {
+    color: coral;
+}
+h1 {
+  color: darkslateblue;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: aqua;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.css-hading {
+    color: darkslateblue;
+   font-weight: bold; 
+   font-size: 18px; 
+}
+
+.css-link {
+    text-decoration: none;
+    color: rgba(13, 12, 13, 0.962);
+}
+.img-no-inline{
+
+    width: 150px;
+}
+
+.css-list-item{
+    font-style: italic;
+    color: crimson;
+}
+
+.css-priority{
+    text-decoration: underline;
+    color: blue;
+}
+
