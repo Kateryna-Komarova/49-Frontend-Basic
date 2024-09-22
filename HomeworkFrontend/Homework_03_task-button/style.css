@@ -7,10 +7,6 @@
   margin: 10px;
   font-family: serif;
 }
-
-:hover {
-  color: black;
-}
 .green {
   color: white;
   background-color: #778d45;
@@ -22,6 +18,7 @@
   color: white;
   font-size: 12px;
 }
-:hover {
+
+.button:hover{
   color: black;
 }
