@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Lesson 04</h1>
+  <p>Flexbox - это гибкая технология для позиционирования элементов в CSS</p>
+  <ul>
+    <li>Чтобы "включить" flex отображение в контейнере нужно задать свойство display:flex</li>
+    <li>Justify-content - свойство выравнивания по главной оси</li>
+    <li>align-items - свойство выравнивания для поперечной оси</li>
+    <li>align-content - управления свойствами выравнивания по поперечной оси при переносе строк через flex-wrap</li>
+    <li>gap - значение промежутка между flex элементами</li>
+  </ul>
+  <h3>Пример 1:</h3>
+  <div class="container">
+    <div class="item">
+      <h5>item 1</h5>
+      <span>flex</span>
+    </div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+  <h3>Пример 2:</h3>
+  <!-- пример переноса внутри flex контейнера -->
+  <div class="container2">
+    <div class="container2_item">first</div>
+    <div class="container2_item"></div>
+    <div class="container2_item"></div>
+    <div class="container2_item"></div>
+    <div class="container2_item"></div>
+    <div class="container2_item"></div>
+    <div class="container2_item"></div>
+    <div class="container2_item"></div>
+    <div class="container2_item"></div>
+    <div class="container2_item">last</div>
+  </div>
+  <h3>Пример 3:</h3>
+  <div class="flex-card">
+    <h4>Apple MacBook Air (2020) Gold Touch ID</h4>
+    <p>Der M1 Chip ist wie der Herzschlag deines MacBook Air - maßgeschneidert, kraftvoll und effizient. Er vereint alles, was du brauchst, von der CPU über die Grafik bis zur Sicherheit, in einem einzigen Chip. Das bedeutet mehr Power für Gaming, Kreativität und Produktivität, ohne dass dein MacBook Air dabei ins Schwitzen gerät. Egal, ob du an einem neuen Projekt arbeitest oder deine Lieblingsspiele spielst, der M1 Chip ist dein zuverlässiger Partner für ein nahtloses Erlebnis.</p>
+    <img src="./img/MacBookAir.webp" alt="">
+  </div>
+
+</body>
+</html>

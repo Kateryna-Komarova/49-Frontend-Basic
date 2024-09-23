@@ -1,4 +1,7 @@
 /* ваше решение здесь */
+* {
+  box-sizing: border-box;
+}
 
 .button {
   border: none;
@@ -22,3 +25,4 @@
 .button:hover{
   color: black;
 }
+

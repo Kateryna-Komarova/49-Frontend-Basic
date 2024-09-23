@@ -16,7 +16,44 @@ span {
 }
 h1{
   margin: 20px 450px;
+  
 }
+
+
+/* 
+/* Стили для больших экранов (например, десктопов) */
+/* @media screen and (min-width: 1200px) {
+  p { */
+    /* width: 50%;
+    margin: 20px auto; /* Центрирование элемента */
+  }
+  h1 {
+    margin: 20px auto;
+  }
+} */
+
+/* Стили для планшетов */
+/* @media screen and (max-width: 1199px) and (min-width: 768px) {
+  p {
+    width: 70%;
+    margin: 15px auto;
+  }
+  h1 {
+    margin: 15px auto;
+  }
+} */
+
+/* Стили для мобильных телефонов */
+/* @media screen and (max-width: 767px) {
+  p {
+    width: 90%;
+    margin: 10px auto;
+  }
+  h1 {
+    margin: 10px auto;
+  }
+} */ 
+
 
 
 
