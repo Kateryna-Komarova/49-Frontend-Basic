@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.mainBanner {
+  position: relative;
+  background-image: url("./img/imagebanner.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+
+}
+
+.logo img {
+  display: flex;
+  width: 200px;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  gap: 10px;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+
+.nav-item img {
+  width: 24px;
+ 
+}
+.search{
+  display: flex;
+}
+.search input {
+  display: flex;
+  opacity: 0.8;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  width: 200px;
+  font-size: 16px;
+  height: 11px;
+}
+.search input::placeholder {
+  color: rgba(153, 153, 153, 0.5);
+}
+.nav-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.search input:hover {
+  opacity: 0.9;
+}
+
+.mainBanner {
+  z-index: 0; /* Фоновый баннер за элементами */
+}
+
+.container {
+  z-index: 1; /* Элементы поверх баннера */
+}
