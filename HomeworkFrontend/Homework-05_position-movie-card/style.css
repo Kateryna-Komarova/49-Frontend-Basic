@@ -1,1 +1,42 @@
 /* ваш код */
+.film-card {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 90px 60px;
+}
+.rate-low {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: center;
+  text-justify: distribute;
+  background-color: rgb(255, 0, 0);
+}
+
+.rate-high {
+  background-color: rgb(59, 179, 58);
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: center;
+  text-justify: distribute;
+}
+.tickets {
+  position: absolute;
+  bottom: 35px;
+  right: 30px;
+  background-color: rgb(255, 86, 0);
+  padding: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 280%;
+}
