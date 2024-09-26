@@ -25,7 +25,8 @@ header {
   padding: 20px;
 }
 
-.card {
+.card:hover {
+  color: rgb(60, 118, 118);
   display: flex;
   flex-direction: column;
   background-color: #b6a4a438;
@@ -59,3 +60,4 @@ header {
 header h1 {
   margin: 0;
 }
+
