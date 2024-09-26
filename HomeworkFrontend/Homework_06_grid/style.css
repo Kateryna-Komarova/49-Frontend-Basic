@@ -5,7 +5,15 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.page-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -23,10 +31,10 @@ header {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 10px;
   padding: 20px;
+  flex-grow: 1;
 }
 
-.card:hover {
-  color: rgb(60, 118, 118);
+.card {
   display: flex;
   flex-direction: column;
   background-color: #b6a4a438;
@@ -61,3 +69,37 @@ header h1 {
   margin: 0;
 }
 
+footer {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+  width: 100%;
+  height: 70px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  header {
+    background-color: #89a87f;
+    color: black;
+  }
+}
+
+@media (max-width: 430px) {
+  header {
+    background-color: #70deb2;
+    color: black;
+  }
+}
