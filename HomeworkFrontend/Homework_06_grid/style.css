@@ -90,6 +90,10 @@ footer {
   font-size: 30px;
 }
 
+.footer-links a:hover i {
+  color: white !important;
+}
+
 @media (max-width: 768px) {
   header {
     background-color: #89a87f;
