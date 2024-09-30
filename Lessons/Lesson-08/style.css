@@ -165,7 +165,7 @@ header,main,footer{
  width: 120px;
  height: 40px;
  top: 17px;
- left: 24px;
+ left: 30px;
 }
 
 .main-poster > h1 {
@@ -176,10 +176,13 @@ header,main,footer{
 }
 
  .footer-columns {
+  padding: 60px 70px;
   display: flex;
   justify-content: space-between;
   flex: 1;
-  margin: 0 auto;
+  gap: 40px;
+ 
+  
 } 
 
 .footer-column p {
@@ -201,8 +204,9 @@ header,main,footer{
 footer span {
   text-align: center;
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   color: white;
+  
 }
 .footer-column h3 {
   font-size: 16px;
