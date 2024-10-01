@@ -6,9 +6,6 @@ const clonedBtn = btn.cloneNode(true);
 clonedBtn.id = "magic-btn-2";
 
 btn.addEventListener("click", () => {
-  // при нажатии на первую кнопку
-  // работайте с clonedBtn
-  // ваш код начинается здесь
   document.body.append(clonedBtn);
   clonedBtn.innerText = "Я изменю тебя";
   clonedBtn.style.backgroundColor = "#a78b71";

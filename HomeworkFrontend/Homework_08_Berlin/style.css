@@ -133,6 +133,10 @@ header,main,footer{
 
 .card-content {
   padding: 20px;
+
+  .span-mini{
+    font-size: 11px;
+  }
  
 }
 
@@ -140,7 +144,7 @@ header,main,footer{
   position: relative;
   height: 374px;
   background-color: #545454;
-  padding: 40px 0;
+  padding: 40px 30px;
   color: white;
   display: flex;
   justify-content: space-between;
