@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 
@@ -13,8 +14,8 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
-}
+  margin: 0 auto; 
+} 
 header,main,footer{
   width: 100%;
   max-width: 1200px;
@@ -83,7 +84,7 @@ header,main,footer{
 
 }
 .grid-title {
-  padding: 15px;
+  padding: 5px 20px;
   font-size: 24px;
   font-weight: bold;
   /* margin-bottom: 16.5;  */
@@ -95,7 +96,7 @@ header,main,footer{
   grid-template-columns: repeat(3, 300px);
   justify-content: center;
   padding: 0px;
-  gap: 117px 20px;
+  gap: 20px;
 }
 
 .card {
@@ -111,8 +112,8 @@ header,main,footer{
 }
 
 .card img {
-  width: 313.33px;
-  height: 234.98px;
+  max-width: 100%;
+  display: block;
   
 }
 .arrow {
@@ -142,9 +143,19 @@ header,main,footer{
     opacity: 0.5;
   }
  
+  .footer-columns {
+    padding-top: 54px;
+    padding-bottom: 115px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 40px;
+  }
 
 
  .footer-two {
+  flex-direction: row;
+  display: flex;
   position: relative;
   height: 374px;
   background-color: #545454;
@@ -155,10 +166,13 @@ header,main,footer{
   align-items: flex-start;
   max-width: 1200px;
   flex-wrap: wrap;
+  flex: 1;
 
 }
 
 .footer-first {
+  flex-direction: row;
+  position: relative;
   height: 374px;
   display: flex;
   justify-content: space-between;
@@ -183,15 +197,6 @@ header,main,footer{
   color: #fff;
 }
 
- .footer-columns {
-  padding: 60px 70px;
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-  gap: 40px;
- 
-  
-} 
 
 .footer-column p {
   font-weight: bold;
@@ -210,10 +215,11 @@ header,main,footer{
 } 
 
 footer span {
-  text-align: center;
+  /* text-align: center;
   display: block;
   margin-top: 10px;
-  color: white;
+  color: white; */
+  margin: 0px 0px 16px;
   
 }
 .footer-column h3 {
@@ -225,6 +231,12 @@ footer span {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+h1,h2,h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
 
 
 
