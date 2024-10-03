@@ -157,9 +157,9 @@ header,main,footer{
   flex-direction: row;
   display: flex;
   position: relative;
-  height: 374px;
+  height: 483px;
   background-color: #545454;
-  padding: 40px 30px;
+  padding: 60px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -177,7 +177,8 @@ header,main,footer{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 40px 0;
+  padding: 90px;
+  padding-right: 15px;
   background-color: #f4f4f4;
   max-width: 1200px;
   
@@ -188,6 +189,7 @@ header,main,footer{
  height: 40px;
  top: 17px;
  left: 30px;
+ 
 }
 
 .main-poster > h1 {
