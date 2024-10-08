@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Калькулятор BMI</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Weight check</h2>
+      <form>
+        <div>
+          <span>Введите ваш рост (см):</span>
+          <input type="number" name="height" />
+        </div>
+        <div>
+          <span>Введите ваш вес (кг):</span>
+          <input type="number" name="weight" />
+        </div>
+        <button type="submit">Рассчитать</button>
+      </form>
+
+      <div class="result"></div>
+      <div class="status"></div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
