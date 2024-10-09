@@ -33,3 +33,4 @@ document.querySelector("form").addEventListener("submit", function (event) {
   
   document.querySelector(".result").innerText = "Ваш BMI: " + bmi; 
   document.querySelector(".status").innerText = "Состояние: " + status; 
+});
