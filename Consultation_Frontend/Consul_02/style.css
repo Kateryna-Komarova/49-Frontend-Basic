@@ -54,6 +54,7 @@ nav {
   display: flex;
   flex-direction: column;
   max-width: 1337px;
+  width: 100%;
 }
 
 .section-title-container {
@@ -83,6 +84,7 @@ nav {
   margin: 110px 0 135px;
   background-color: #000000;
   padding: 40px;
+
 }
 
 .episode-content-container {
@@ -130,6 +132,7 @@ nav {
 footer{
   display: flex;
   justify-content: center;
+  /* flex-direction: column; */
   
   border-top: 2px solid #ffffff;
   border-radius: 32px;
@@ -139,6 +142,7 @@ footer{
 .footer-content-container{
   gap: 203px;
   display: flex;
+  width: 100%;
   max-width: 1337px;
 }
 
@@ -159,4 +163,62 @@ gap: 120px;
 
 .nav-footer-items a{
   margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+
+  }
+
+  nav {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .section-title-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    
+  }
+  .episode-card {
+    flex-direction: column;
+  
+  }
+
+  .episode-card-title{
+    font-size: 40px;
+  }
+  
+  .episode-content-container {
+    gap: 52px;
+
+  }
+
+.episode-card-description{
+  margin-bottom: 72px;
+}
+
+.btn-description-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.comments-container{
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.comment-card{
+  max-width: 436px;
+}
+
+
 }
