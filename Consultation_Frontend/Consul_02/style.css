@@ -219,6 +219,9 @@ gap: 120px;
 .comment-card{
   max-width: 436px;
 }
-
+.footer-content-container{
+  gap: 100px;
+  width: 100%;
+}
 
 }
