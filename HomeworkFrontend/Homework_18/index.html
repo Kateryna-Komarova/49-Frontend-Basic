@@ -13,13 +13,15 @@
     <title>Cats Facts and Photos</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="content-container" style="display: none;">
       <h1>Random Cat Facts and Photos</h1>
-      <p id="cat-fact" class="skeleton skeleton-text">Loading fact</p>
-      <img id="cat-image" class="skeleton skeleton-image" alt="Loading image" />
+      <p id="cat-fact">Loading fact</p>
+      <img id="cat-image" alt="Loading image" />
       <br />
       <button id="new-cat-btn">Get New Cat Fact and Photo</button>
     </div>
+    <div id="loader">Loading...</div> <!-- Лоадер -->
+    
     <script src="./main.js"></script>
   </body>
 </html>
